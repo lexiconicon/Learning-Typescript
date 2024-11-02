@@ -1,0 +1,89 @@
+
+
+/* styles the page heading */
+h1 { 
+  color: #004d4d;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #e6f7f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+}
+
+/* styles the bird form */
+#bird-form {
+  max-width: 800px;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #a3d5d3;
+  border-radius: 8px;
+  background-color: #e6f7f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* styles the add birds button */
+#addBird {
+  background-color: #99e6e6;
+  color: #003333;
+  border: none;
+}
+
+/* styles the button container mostly for sizing */
+#button-container {
+  padding: 10px 20px;
+  font-size: 1.1em;
+}
+
+/* Styling the bird container */
+#bird-container {
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 15px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  border: 1px solid #a3d5d3;
+  background-color: #e6f7f9;
+}
+
+/* creates a hover effect for the fetch and delete buttons */
+#fetch-birds:hover, #delete-birds:hover {
+  opacity: 0.9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* styles the fetch and delete buttons */
+#fetch-birds, #delete-birds {
+  background-color: #a3d5d3;
+  color: #002b2b;
+  border: none;
+}
+
+
+/* styles each bird entry */
+#bird-container div {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; 
+  border-radius: 6px; 
+  background-color: #fff; 
+  transition: transform 0.2s; 
+}
+
+/* creates a hover effect for each bird entry */
+#bird-container div:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Styling the headings and paragraphs */
+#bird-container h3 {
+  font-size: 1.5em; 
+  color: #006666; 
+}
+
+#bird-container p {
+  color: #004d4d; 
+  margin: 5px 0; 
+}

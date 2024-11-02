@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <h1>Directory of American Birds</h1>
+    <br>
+
+    <!-- form for user input -->
+    <form id="bird-form">
+        <div class="form-row"> 
+            <div class="col mb-3">
+                <input type="text" class="form-control" id="bird-name" placeholder="Bird Name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" id="latin-name" placeholder="Latin Name">
+            </div>
+        </div>
+        <br>
+        <div>
+            <button type="submit" id="addBird" class="btn form-control">Add Bird</button> <!-- Created a submit button -->
+        </div>
+    </form>
+    <br>
+    <div id="button-container" class="d-flex justify-content-center gap-3 my-3" >
+        <button id="fetch-birds" class="btn" >View Birds</button>
+        <button id="delete-birds" class="btn" >Delete Bird</button>
+    </div>
+    
+    <div id="bird-container"></div>
+ 
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
